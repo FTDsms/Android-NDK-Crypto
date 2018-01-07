@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <EditText
+                android:id="@+id/input1"
+                android:layout_height="wrap_content"
+                android:hint="Enter the character you want to encrypt"
+                android:textSize="15sp"
+                android:digits="QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm"/>
+            <Button
+                android:id="@+id/encrypt"
+                android:layout_height="wrap_content"
+                android:text="加密" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/output1"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/input2"
+                android:layout_height="wrap_content"
+                android:hint="Enter the character you want to decrypt"
+                android:textSize="15sp"
+                android:digits="QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm"/>
+            <Button
+                android:id="@+id/decrypt"
+                android:layout_height="wrap_content"
+                android:text="解密" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/output2"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
